@@ -37,59 +37,59 @@ This template is free for both personal and commercial use, But to satisfy the '
 <body>
 
 
+  <!-- Outer Wrapper -->
+  <div id='outer-wrapper'>
 
-<div id="header-wrap">
-  <div class="wrapper">
-    <div class="header-logo">
-      <a href="#"><img class="main-logo" src="images/speedily-logo.png" alt="" /></a>
-    </div>
 
-    <div id="header-menu">
-    <nav>
-      <ul id="nain-menu">
-        <li><a href="/p/home.html">Home</a></li>
-        <li><a href="/p/about-us.html">About</a></li>
-        <li><a href="/p/contact-us.html">Contact US</a></li>
-        <li><a href="/p/policy.html">Policy</a></li>
-      </ul>
-    </nav>
-    </div>
+    <!-- Header Wrapper -->
+    <div id='header-wrap'>
+      <div class='mobile-menu-wrap'>
+        <div class='mobile-menu' />
+      </div>
+      <div class='container row-x9'>
 
-    <div id="nav-search">
-      <i class="fa fa-search"></i>
-    </div>
-  </div>
+<div class='header-logo'>
+<section class='main-logo' id='main-logo'>
+<a class='header-image-wrapper' href="#"><img class="main-logo" src="images/speedily-logo.png" alt="" /></a>
+</section></div>
 
+<div class='header-menu'>
+<section class='main-menu' id='main-menu'>
+  <b:includable id='main'>
+  <ul><li><a href="/p/home.html">Home</a></li>
+  <li><a href="/p/about-us.html">About</a></li>
+  <li><a href="/p/contact-us.html">Contact US</a></li>
+  <li><a href="/p/policy.html">Policy</a></li></ul>
+</b:includable>
+<b:includable id='main'>
+  <b:include name='content' />
+</b:includable>
+<b:includable id='content'>
+<ul id='main-menu-nav' role='menubar'>
+  <b:loop values='data:links' var='link'>
+    <li>
+      <a expr:href='data:link.target' role='menuitem'>
+        <data:link.name />
+      </a>
+    </li>
+  </b:loop>
+</ul>
+</b:includable>
+</section>
 </div>
 
-<div class="header-wrapper">
-  <div class="hero">
-    <div class="hero-left">
-      <h1 class="main-subheading">Learn Bloggging</h1>
-      <p class="main-subheading">Welcome to Bellslovee e-commerce template</p>
-      <a class="hero-button" href="/p/about.html">Learn More</a>
-    </div>
-    <div class="hero-right">
-      <img src="images/Web capture_9-6-2022_191936_wescommerce.blogspot.com.jpeg" />
-    </div>
-  </div>
+<div id='nav-search'>
+  <form class='search-form' expr:action='data:blog.searchUrl' role='search'>
+    <input autocomplete='off' class='search-input' expr:placeholder='data:messages.searchThisBlog' name='q'
+      type='search' value='' />
+    <span class='hide-search' />
+  </form>
 </div>
-
-
-
-<main id='main-wrapper'>
-  <b:section id='main'>
-    <!-- Place widget code here -->
-  </b:section>
-</main>
-
-<aside id='sidebar-wrapper' itemscope='itemscope' itemtype='http://schema.org/WPSideBar'>
-  <b:section id='sidebar'>
-    <!-- Place widget code here -->
-  </b:section>
-</aside>
-
-
+<span class='show-search' />
+<span class='mobile-menu-toggle' />
+</div>
+</div>
+<div class='clearfix' />
 
       <!-- #content -->
       <footer class='site-footernbt' id='colophonnbt' role='contentinfo'>
@@ -108,9 +108,6 @@ This template is free for both personal and commercial use, But to satisfy the '
 
 
 <script src="main.js"></script>
-
-
-
 
   </body>
 </html>
