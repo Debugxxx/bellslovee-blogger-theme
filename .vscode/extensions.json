@@ -2,6 +2,7 @@
     "recommendations": [
         "techer.open-in-browser",
         "wscats.cors-browser",
-        "FordLabs.copyrighter"
+        "fordlabs.copyrighter",
+        "ms-edgedevtools.vscode-edge-devtools"
     ]
 }
