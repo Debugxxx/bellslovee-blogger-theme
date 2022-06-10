@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html lang="en">
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.3.0' expr:class='data:blog.languageDirection' expr:dir='data:blog.languageDirection' expr:lang='data:blog.localeUnderscoreDelimited' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
 
-<title>BellsLovee E-commerce</title>
+
+
+
+<title><data:view.title.escaped/></title>
+<meta expr:content='&quot;text/html; charset=&quot; + data:blog.encoding' http-equiv='Content-Type'/>
+<meta content='blogger' name='generator'/>
+
+<!--- BellsLovee Templates All Packed SEO /-->
 <meta name="description" content="Blogger Shopping Cart Template">
-
 <link rel="stylesheet" href="./assets/style.css">
-
 <link rel="icon" href="./Img/favicon.png">
 <link rel="apple-touch-icon" href="./Img/favicon.png">
 
