@@ -2,6 +2,9 @@
     "recommendations": [
         "ms-edgedevtools.vscode-edge-devtools",
         "wscats.cors-browser",
-        "techer.open-in-browser"
+        "techer.open-in-browser",
+        "eg2.vscode-npm-script",
+        "dotjoshjohnson.xml",
+        "felipecaputo.git-project-manager"
     ]
 }
